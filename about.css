@@ -1,0 +1,50 @@
+.aboutme {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* background-color: brown; */
+    width: 75%;
+    /* height: 123px; */
+  }
+  .aboutme2 {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+  }
+  .aboutme2 h2,
+  i {
+    font-size: 70px;
+    font-weight: 600;
+  }
+  .aboutdetails {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    /* width: 40%; */
+  }
+  .leftdetails {
+    display: flex;
+    justify-content: center;
+    /* background-color: bisque; */
+    width: 40%;
+  }
+  .leftdetails img {
+    position: relative;
+    top: 35px;
+    border-radius: 55px;
+    filter: grayscale(40%);
+  }
+  .leftdetails img:hover {
+    filter: grayscale(0%);
+  }
+  .rightdetails {
+    /* background-color: bisque; */
+    width: 40%;
+  }
+  .rightdetails p {
+    position: relative;
+    top: 50px;
+    font-size: 21px;
+    text-align: center;
+  }

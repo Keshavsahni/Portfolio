@@ -1,0 +1,73 @@
+.thirdsection {
+    text-align: center;
+  }
+  .thirdsection h2 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .skills {
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    height: 540px;
+  }
+  .skills:hover{
+    cursor: pointer;
+  }
+  .skill1 {
+    background-color: rgb(89, 89, 89);
+    width: 300px;
+    height: 150px;
+    border-radius: 5%;
+  }
+  .skill1 img {
+    position: relative;
+    top: 30px;
+    left: -90px;
+  }
+  .skill1 h2 {
+    position: relative;
+    font-size: 45px;
+    top: -60px;
+    left: 50px;
+  }
+  .one {
+    position: relative;
+    /* top: 100px; */
+    left: 80px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width: 90%;
+  }
+  .two {
+    position: relative;
+    top: 50px;
+    left: 220px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width: 70%;
+  }
+  .two h2{
+    position: relative;
+    top: -40px;
+  }
+  .three {
+    position: relative;
+    top: 100px;
+    left: 80px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width: 90%;
+  }
+  .three h2{
+    position: relative;
+    top: -40px;
+  }
+  .bootstrap h2{
+    position: relative;
+    top: -30px;
+    font-size: 38px;
+  }

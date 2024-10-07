@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>KeshavSahni</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +23,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="skills.css">
   </head>
   <body>
     <header>
@@ -33,9 +35,12 @@
           <ul>
             <a href="#"><li>Home</li></a>
             <a href="#detail"><li>About</li></a>
-            <a href="#"><li>Services</li></a>
-            <a href="#"><li>Projects</li></a>
+            <a href="#skil"><li>Skills</li></a>
+            <a href="#project"><li>Projects</li></a>
             <a href="#"><li>Contact Me</li></a>
+            <a href="assets/resume.pdf"
+              ><li><button id="btn">RESUME.pdf</button></li></a
+            >
           </ul>
         </div>
       </nav>
@@ -51,20 +56,134 @@
           <br />
           <br />
           <div class="aboutBtn" id="firstid">
-            <button><a href="#detail">About Me<i class="fa-solid fa-arrow-down"></i></a></button>
+            <button>
+              <a href="#detail"
+                >About Me<i class="fa-solid fa-arrow-down"></i
+              ></a>
+            </button>
           </div>
-          
+
           <div class="icons">
             <ul>
-                <li><a href="https://www.instagram.com/keshav_sahni_01/?next=%2F"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/keshav-sahni-53bb20193/"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/Keshavsahni"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="keshavsahni01@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+              <li>
+                <a href="https://www.instagram.com/keshav_sahni_01/?next=%2F"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/keshav-sahni-53bb20193/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/Keshavsahni"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="keshavsahni01@gmail.com"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </li>
             </ul>
           </div>
         </div>
         <div class="rightsection">
           <img src="assets/bg.png" />
+        </div>
+      </section>
+      <hr />
+      <section class="thirdsection">
+        <h2 id="skil">TECH SKILLS</h2>
+        <div class="skills">
+          <div class="one">
+            <div class="c skill1">
+              <img src="assets/c.png" alt="" width="100px" height="100px" />
+              <h2>C</h2>
+            </div>
+            <div class="cpp skill1">
+              <img src="assets/cpp.png" alt="" width="100px" height="100px" />
+              <h2>Cpp</h2>
+            </div>
+            <div class="java skill1">
+              <img src="assets/java.png" alt="" width="100px" height="100px" />
+              <h2>Java</h2>
+            </div>
+            <div class="python skill1">
+              <img
+                src="assets/python.png"
+                alt=""
+                width="100px"
+                height="100px"
+              />
+              <h2>Python</h2>
+            </div>
+          </div>
+
+          <div class="two">
+            <div class="js skill1">
+              <img src="assets/js.png" alt="" width="80px" height="80px" />
+              <h2>JS</h2>
+            </div>
+            <div class="node skill1">
+              <img src="assets/node.png" alt="" width="80px" height="80px" />
+              <h2>Node</h2>
+            </div>
+            <div class="express skill1">
+              <img
+                src="assets/express.png"
+                alt=""
+                width="80px"
+                height="80px"
+              />
+              <h2>Express</h2>
+            </div>
+          </div>
+
+          <div class="three">
+            <div class="my-sq skill1">
+              <img src="assets/sql.png" alt="" width="80px" height="80px" />
+              <h2>My Sql</h2>
+            </div>
+            <div class="react skill1">
+              <img src="assets/react.png" alt="" width="80px" height="80px" />
+              <h2>React</h2>
+            </div>
+            <div class="git skill1">
+              <img src="assets/git.png" alt="" width="170px" height="80px" />
+              <h2>Git</h2>
+            </div>
+            <div class="bootstrap skill1">
+              <img
+                src="assets/bootstrap.png"
+                alt=""
+                width="80px"
+                height="80px"
+              />
+              <h2>Bootstrap</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="fourthsection">
+        <h2 id="project">Projects</h2>
+        <div class="container">
+          <div class="project1">
+             <h2>Calculator-Basic</h2>
+             <p>I created a versatile calculator designed to handle a wide range of mathematical operations. With this calculator, users can effortlessly perform basic arithmetic functions such as addition, subtraction, multiplication, and division.Its user-friendly interface ensures that even complex calculations can be performed quickly and accurately, offering a reliable solution for students, professionals, and anyone in need of a convenient way to process numbers.</p>
+             <a href="projects/calculator/index.html"><button>View Project</button></a>
+          </div>
+          <div class="project1 pro2">
+            <h2>Quiz Game</h2>
+            <p>Developed a quiz game using JavaScript, HTML, and CSS. The game involved a set of questions stored in an object along with their correct answers. Users interacted with the quiz by answering the questions and receiving scores based on their selections. Additional functionalities included options to reset the quiz, navigate to previous and next questions, and prevent reattempting already answered questions.</p>
+            <a href="projects/quiz/index.html"><button>View Project</button></a>
+         </div>
+         <div class="project1 pro3">
+          <h2>Simon Says</h2>
+          <p>created a game using JavaScript. This game is designed to aid individuals with low memory power. It features four colored lights and includes ten levels. The game works by flashing a sequence of colored lights, which users then have to repeat in the correct order. As the levels progress, users are challenged to recall longer sequences, including the current and previous lights. While traditionally a physical game, I tried adapting it for online use to enhance accessibility</p>
+          <a href="projects/SimonGame/index.html"><button>View Project</button></a>
+       </div>
         </div>
       </section>
       <section class="secondsection">
@@ -76,15 +195,22 @@
           </div>
         </div>
         <div class="aboutdetails">
-            <div class="leftdetails">
-                <img src="assets/me.jpg" width="400px" height="400px">
-            </div>
-            <div class="rightdetails" id="detail">
-                <p>Hello, my name is Keshav and I am currently pursuing a Bachelor of Computer Applications (BCA) from chitkara university During my studies I have developed a solid foundation in computer science and programming languages with coursework covering subjects like data structures, algorithms, database management, and web development. I have also gained practical experience through projects where I have applied my technical skills in real-world scenarios.</p>
-<p>My passion lies in specific area like software development  , web development  I am a quick learner a team player and I enjoy problem-solving. I am excited about the opportunity to bring my knowledge and enthusiasm to (company name )and contribute to your team's success </p> 
-            </div>
+          <div class="leftdetails">
+            <img src="assets/me.jpg" width="400px" height="400px" />
+          </div>
+          <div class="rightdetails" id="detail">
+            <p>
+              Hello, my name is Keshav and I am currently pursuing a Bachelor of
+              Computer Applications (BCA) from chitkara university During my
+              studies I have developed a solid foundation in computer science
+              and programming languages with coursework covering subjects like
+              data structures, algorithms, database management, and web
+              development. I have also gained practical experience through
+              projects where I have applied my technical skills in real-world
+              scenarios.
+            </p>
+          </div>
         </div>
-        
       </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
